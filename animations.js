@@ -36,7 +36,7 @@
 
   /* ---- Countdown Timer ---- */
   // SET YOUR CONFERENCE DATE HERE (YYYY, month-1, day, hour, minute)
-  var CONFERENCE_DATE = new Date(2026, 4, 29, 9, 0, 0); // May 29, 2026 at 9:00 AM
+  var CONFERENCE_DATE = new Date(2026, 4, 6, 9, 0, 0); // May 6, 2026 at 9:00 AM
 
   var countdownEl = document.getElementById('countdown');
   if (countdownEl) {
