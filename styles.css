@@ -958,6 +958,79 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-muted);
 }
 
+/* Bio Cards (About page) */
+.team-grid-bio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.bio-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  border: 1px solid var(--light-gray);
+  border-top: 3px solid var(--navy);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: box-shadow .3s ease, transform .3s ease;
+}
+
+.bio-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.bio-card__photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-height: 280px;
+  background: var(--light-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bio-card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bio-card__photo span {
+  font-family: 'Inter', sans-serif;
+  font-size: .8rem;
+  color: var(--text-muted);
+}
+
+.bio-card__body {
+  padding: 24px 28px 28px;
+}
+
+.bio-card__name {
+  font-size: 1.2rem;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+
+.bio-card__role {
+  font-family: 'Inter', sans-serif;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 14px;
+}
+
+.bio-card__bio {
+  font-family: 'Inter', sans-serif;
+  font-size: .9rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
 /* Footer */
 .site-footer {
   background: var(--navy-dark);
