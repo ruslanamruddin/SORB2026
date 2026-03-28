@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 310" width="520" height="310">
+  <!-- S -->
+  <text x="55" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="140" font-weight="bold" fill="#ffffff" text-anchor="middle">S</text>
+
+  <!-- O - simplified egg/sperm for footer (white on dark) -->
+  <g transform="translate(177, -22)">
+    <!-- Egg cell body -->
+    <ellipse cx="78" cy="100" rx="68" ry="68" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-width="4"/>
+    <!-- Egg nucleus -->
+    <circle cx="78" cy="100" r="28" fill="#ffffff" fill-opacity="0.3"/>
+    <!-- Sperm head -->
+    <ellipse cx="118" cy="60" rx="12" ry="8" fill="#fabd0f" transform="rotate(-40 118 60)"/>
+    <!-- Sperm tail -->
+    <path d="M126 52 Q148 30 140 10 Q132 -5 150 -15" fill="none" stroke="#fabd0f" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- R -->
+  <text x="320" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="140" font-weight="bold" fill="#ffffff" text-anchor="middle">R</text>
+
+  <!-- B -->
+  <text x="432" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="140" font-weight="bold" fill="#ffffff" text-anchor="middle">B</text>
+
+  <!-- Subtitle -->
+  <text x="260" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#fabd0f" text-anchor="middle" font-style="italic">Southern Ontario Reproductive</text>
+  <text x="260" y="203" font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#fabd0f" text-anchor="middle" font-style="italic">Biology Conference</text>
+
+  <!-- Divider line -->
+  <line x1="80" y1="218" x2="440" y2="218" stroke="#fabd0f" stroke-width="1" stroke-opacity="0.5"/>
+
+  <!-- University / Year -->
+  <text x="260" y="254" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#ffffff" text-anchor="middle">Queen&#39;s University</text>
+  <text x="260" y="288" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#ffffff" text-anchor="middle">2026</text>
+</svg>
