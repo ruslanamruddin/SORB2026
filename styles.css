@@ -958,12 +958,35 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-muted);
 }
 
+/* Committee Section Labels */
+.committee-section-label {
+  font-family: 'Inter', sans-serif;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 48px;
+  margin-bottom: 8px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--light-gray);
+}
+
 /* Bio Cards (About page) */
 .team-grid-bio {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 32px;
-  margin-top: 48px;
+  margin-top: 24px;
+}
+
+.team-grid-bio--two {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bio-card--empty {
+  opacity: .5;
+  border-top-color: var(--light-gray);
 }
 
 .bio-card {
