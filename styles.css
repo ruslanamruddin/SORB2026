@@ -746,9 +746,24 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
+.timeline__item--past {
+  opacity: .38;
+}
+
+.timeline__item--past::before {
+  background: var(--light-gray);
+  border-color: var(--light-gray);
+}
+
 .timeline__item--active::before {
   background: var(--gold);
   border-color: var(--gold);
+  box-shadow: 0 0 0 4px rgba(250, 189, 15, .25);
+}
+
+.timeline__item--active .timeline__date,
+.timeline__item--active .timeline__text {
+  font-weight: 700;
 }
 
 .timeline__date {
