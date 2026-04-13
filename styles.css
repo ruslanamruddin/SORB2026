@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Header */
 .site-header {
   position: sticky;
-  top: 0;
+  top: 40px;
   z-index: 1000;
   background: var(--navy);
   box-shadow: var(--shadow-md);
@@ -1350,6 +1350,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Deadline Banner */
 .deadline-banner {
+  position: sticky;
+  top: 0;
+  z-index: 1001;
   background: var(--gold);
   color: var(--navy-dark);
   text-align: center;
